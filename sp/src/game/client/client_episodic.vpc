@@ -5,8 +5,8 @@
 //-----------------------------------------------------------------------------
 
 $Macro SRCDIR		"..\.."
-$Macro GAMENAME 	"episodic" [!$SOURCESDK]
-$Macro GAMENAME 	"mod_episodic" [$SOURCESDK]
+$Macro GAMENAME 	"Asylum" [!$SOURCESDK]
+$Macro GAMENAME 	"mod_asylum" [$SOURCESDK]
 
 $Include "$SRCDIR\game\client\client_base.vpc"
 
