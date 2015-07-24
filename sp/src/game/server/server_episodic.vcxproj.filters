@@ -13,6 +13,9 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{BA03E055-4FA2-FCE3-8A1C-D348547D379C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Asylum DLL">
+      <UniqueIdentifier>{A1F8C539-AC26-DCA8-2C90-329A66F6C5A0}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\HL2 DLL">
       <UniqueIdentifier>{3C43D38A-46AF-2183-A5E5-44383B1D2652}</UniqueIdentifier>
     </Filter>
@@ -1511,6 +1514,15 @@
     <ClInclude Include="world.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="asylum\weapon_crowbar.h">
+      <Filter>Source Files\Asylum DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="asylum\weapon_frying_pan.h">
+      <Filter>Source Files\Asylum DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="asylum\weapon_machete.h">
+      <Filter>Source Files\Asylum DLL</Filter>
+    </ClInclude>
     <ClInclude Include="hl2\ai_behavior_actbusy.h">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
@@ -1727,13 +1739,7 @@
     <ClInclude Include="hl2\weapon_alyxgun.h">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
-    <ClInclude Include="hl2\weapon_ar2.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
     <ClInclude Include="hl2\weapon_citizenpackage.h">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClInclude>
-    <ClInclude Include="hl2\weapon_crowbar.h">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClInclude>
     <ClInclude Include="hl2\weapon_physcannon.h">
@@ -1783,6 +1789,9 @@
     </ClInclude>
     <ClInclude Include="toolframework_server.h">
       <Filter>Tools Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\client\hud_healthbar.h">
+      <Filter>Source Files\Asylum DLL</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -2884,6 +2893,15 @@
     <ClCompile Include="world.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="asylum\weapon_crowbar.cpp">
+      <Filter>Source Files\Asylum DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="asylum\weapon_frying_pan.cpp">
+      <Filter>Source Files\Asylum DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="asylum\weapon_machete.cpp">
+      <Filter>Source Files\Asylum DLL</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\game\shared\episodic\achievements_ep1.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
@@ -3265,49 +3283,19 @@
     <ClCompile Include="hl2\vehicle_viewcontroller.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\weapon_357.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
     <ClCompile Include="hl2\weapon_alyxgun.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_annabelle.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_ar2.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_bugbait.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
     <ClCompile Include="hl2\weapon_citizenpackage.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\weapon_crossbow.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_crowbar.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
     <ClCompile Include="weapon_cubemap.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_frag.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
     <ClCompile Include="hl2\weapon_physcannon.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
-    <ClCompile Include="hl2\weapon_pistol.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
     <ClCompile Include="hl2\weapon_rpg.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_shotgun.cpp">
-      <Filter>Source Files\HL2 DLL</Filter>
-    </ClCompile>
-    <ClCompile Include="hl2\weapon_smg1.cpp">
       <Filter>Source Files\HL2 DLL</Filter>
     </ClCompile>
     <ClCompile Include="episodic\weapon_striderbuster.cpp">
@@ -3504,6 +3492,9 @@
     </ClCompile>
     <ClCompile Include="toolframework_server.cpp">
       <Filter>Tools Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\client\hud_healthbar.cpp">
+      <Filter>Source Files\Asylum DLL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

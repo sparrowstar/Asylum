@@ -1,2 +1,2 @@
-devtools\bin\vpc.exe /episodic +game /mksln asylum.sln
+devtools\bin\vpc.exe /episodic /2013 +game /mksln asylum.sln
 pause

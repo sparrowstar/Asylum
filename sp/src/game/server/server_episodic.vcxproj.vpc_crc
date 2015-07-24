@@ -1,7 +1,7 @@
 [vpc crc file version 2]
 8209bbc3 C:\Users\Sparrow\Documents\GitHub\Asylum\sp\src\devtools\bin\vpc.exe
 _Nc_VS2013/vpcgame:episodic_
-8edc6e9c server_episodic.vpc
+e0ac2b91 server_episodic.vpc
 cd2921c2 ..\..\game\server\server_base.vpc
 4832e67a ..\..\vpc_scripts\source_dll_base.vpc
 d752cf80 ..\..\vpc_scripts\platform_dirs.vpc
