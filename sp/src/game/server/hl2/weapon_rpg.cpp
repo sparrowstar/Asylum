@@ -1372,7 +1372,6 @@ void CAPCMissile::ComputeActualDotPosition( CLaserDot *pLaserDot, Vector *pActua
 //=============================================================================
 // RPG
 //=============================================================================
-
 BEGIN_DATADESC( CWeaponRPG )
 
 	DEFINE_FIELD( m_bInitialStateUpdate,FIELD_BOOLEAN ),
@@ -1389,8 +1388,8 @@ END_DATADESC()
 IMPLEMENT_SERVERCLASS_ST(CWeaponRPG, DT_WeaponRPG)
 END_SEND_TABLE()
 
-LINK_ENTITY_TO_CLASS( weapon_rpg, CWeaponRPG );
-PRECACHE_WEAPON_REGISTER(weapon_rpg);
+//LINK_ENTITY_TO_CLASS( weapon_rpg, CWeaponRPG );
+//PRECACHE_WEAPON_REGISTER(weapon_rpg);
 
 acttable_t	CWeaponRPG::m_acttable[] = 
 {
